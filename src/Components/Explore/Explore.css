@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.exploreCard{
+    width: 190px;
+    height: auto;
+    border-radius: 7px;
+    padding: 20px 15px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 410px){
+    .exploreCard{
+        width: 100%;
+    }
+}
+
+.exploreCard h5{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.exploreCardLists{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(121, 120, 120);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.exploreCardLists p{
+    margin-left: 5px;
+}

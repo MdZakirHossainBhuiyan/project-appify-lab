@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.votingPostCard{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 20px 30px 20px;
+}
+
+.displayCommentCount{
+    text-align: end;
+    margin: 10px 0px;
+}
+
+.votingContentBody{
+    margin-top: 20px;
+}
+
+.votingContentBody p{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 410px) {
+    .votingContentBody p{
+        font-size: 15px;
+    }
+}
+
+.votingOption{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 410px) {
+    .votingOption p{
+        width: 100%;
+    }
+}
+
+.votingContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.selectButtonActive{
+    background-color: rgb(77, 77, 224);
+    border: none;
+    border-radius: 3px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.selectButton{
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.votingOptionTitle{
+    border: 1px solid rgb(189, 186, 186);
+    border-radius: 5px;
+    background-color: rgb(235, 231, 231);
+    padding: 5px 200px 5px 15px;
+    color: gray;
+}
+
+@media only screen and (max-width: 410px) {
+    .votingOptionTitle{
+        padding: 5px 20px 5px 15px;
+    }
+}
+
+.votingOptionTitle p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.voteCount{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.voteCount p{
+    color: gray;
+    font-size: 12px;
+}
+
+.clearButton{
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

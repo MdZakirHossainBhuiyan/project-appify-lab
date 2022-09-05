@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.createPostArea{
+    margin-top: 10px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 410px) {
+    .createPostArea{
+        height: auto;
+    }
+}
+
+.inputFieldArea{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.inputFieldArea input{
+    width: 80%;
+    background-color: rgb(235, 231, 231);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+.inputFieldArea input:focus{
+    outline: none;
+}
+
+hr.borderLine{
+    border: 0.2px solid rgb(230, 227, 227);
+    border-bottom: hidden;
+    margin-bottom: 20px;
+}
+
+.postOptions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.optionItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.optionItems p{
+    color: rgb(82, 80, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 410px) {
+    .optionItems p{
+        font-size: 10px;
+    }
+}

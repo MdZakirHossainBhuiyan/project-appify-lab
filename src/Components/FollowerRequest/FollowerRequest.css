@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.followerRequestCard{
+    width: 190px;
+    height: auto;
+    border-radius: 7px;
+    padding: 20px 15px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 410px){
+    .followerRequestCard{
+        width: 100%;
+    }
+}
+
+.followerRequestCard h5{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+hr.borderLine{
+    border: 0.2px solid rgb(247, 243, 243);
+    border-bottom: hidden;
+    margin-bottom: 20px;
+}
+
+.followerRequestList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.followerInfo{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.followerInfo h6{
+    font-size: 15px;
+    color: rgb(68, 66, 66);
+}
+
+.followerInfo p{
+    font-size: 12px;
+    color: rgb(146, 143, 143);
+}
+
+.cardButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+
+.cardButtons button{
+    padding: 7px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.ignoreButton{
+    border: 1px solid rgb(187, 184, 184);
+    background-color: #fff;
+    color: rgb(129, 126, 126);
+}
+
+.followButton{
+    border: none;
+    background-color: rgb(230, 36, 36);
+    color: #fff;
+}

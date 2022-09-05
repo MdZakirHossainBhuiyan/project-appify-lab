@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.replyComment{
+    margin-left: 60px;
+}
+
+.displayCommentsArea{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.displayCommentContent{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.commentContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.commentImage{
+    background-color: rgb(235, 231, 231);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.commentImage h6{
+    font-size: 12px;
+    color: gray;
+    padding-bottom: 7px;
+}
+
+.commentImage img{
+    width: 150px;
+    height: 150px;
+}
+
+.threeDotOption button{
+    border: none;
+    background-color: #fff;
+    margin-left: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.commentReaction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.commentReaction button{
+    border: none;
+    background-color: #fff;
+    margin-right: 10px;
+    color: gray;
+}
+
+.commentReaction p{
+    margin-right: 10px;
+    font-size: small;
+    color: gray;
+}
+
+.oneDot{
+    margin-top: -17px;
+    font-size: 30px !important;
+}

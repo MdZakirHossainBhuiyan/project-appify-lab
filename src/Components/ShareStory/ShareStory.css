@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.shareStoryArea{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.storyCard{
+    width: 120px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+.createStoryCard{
+    background-color: gray;
+    background-image: url('../../Image/User-avatar.svg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.createButton{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: black;
+}
+
+.createButton button{
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: blue;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.createButton p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.displayStory{
+    background-color: gray;
+}
+
+.displayStory img{
+    width: 120px;
+    height: 90px;
+    margin-top: -10px;
+    border-radius: 7px;
+}
+
+.displayStory h5{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 3px;
+    color: rgb(223, 219, 219);
+}

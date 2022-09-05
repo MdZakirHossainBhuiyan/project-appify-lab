@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.userContentArea{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.userInfo{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userInfo h5{
+    color: rgb(44, 43, 43);
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userInfo span{
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.userInfo p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(94, 92, 92);
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.downButton button{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
